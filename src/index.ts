@@ -1,1 +1,1 @@
-export {HelloWorld} from './hello-world';
+export {Game} from "./core/game";
