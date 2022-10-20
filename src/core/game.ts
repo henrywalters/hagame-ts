@@ -10,7 +10,6 @@ export class Game {
         this._engine = new Engine(canvas, true);
         this._levels = new StateMachine<Level>();
         this._canvas = canvas;
-        console.log(new Date());
     }
 
     public run() {
